@@ -1,6 +1,5 @@
 class Imc {
-    constructor(pessoa) {
-        console.log(pessoa.nome + ' ' + this.calcula(pessoa.altura, pessoa.peso));
+    constructor() {
     }
     calcula(altura, peso) {
         let imc = peso / (altura * altura);
